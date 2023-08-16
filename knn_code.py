@@ -16,10 +16,9 @@ print(df)
 df.describe()
 
 xq= df.sample()
-
 xq_final = pd.DataFrame(xq[['Age','Salary']])
-
 xq_final
+
 
 def cal_distance(x):
   a = x.to_numpy()
